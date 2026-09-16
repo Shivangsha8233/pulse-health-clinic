@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Build artifacts
+site.zip
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# Reference images (not needed in deploy)
+RefImages/
