@@ -1029,12 +1029,13 @@ img {
 }
 
 #doctor-priya .doctor-image-wrap img {
-    object-position: center 60%;
-    transform: scale(1.38);
+    object-position: 68% 28%;
+    transform-origin: 68% 28%;
+    transform: scale(1.15);
 }
 
 #doctor-priya:hover .doctor-image-wrap img {
-    transform: scale(1.45);
+    transform: scale(1.22);
 }
 
 .doctor-badge {
