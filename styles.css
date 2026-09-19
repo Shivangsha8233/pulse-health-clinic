@@ -984,6 +984,28 @@ img {
     line-height: 1.5;
 }
 
+.procedure-highlights {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 24px;
+    padding-top: 18px;
+    border-top: 1px dashed var(--gray-200);
+}
+
+.highlight-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 14px;
+    background: var(--primary-50);
+    color: var(--primary-700);
+    border: 1px solid var(--primary-200);
+    border-radius: var(--radius-full);
+    font-size: 0.82rem;
+    font-weight: 600;
+}
+
 /* ==================== DOCTORS ==================== */
 .doctors {
     background: var(--bg-alt);
