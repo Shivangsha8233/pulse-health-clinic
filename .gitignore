@@ -15,3 +15,7 @@ desktop.ini
 
 # Reference images (not needed in deploy)
 RefImages/
+
+# VEM Clinic redesign project (independent)
+vem/
+
