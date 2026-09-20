@@ -1110,7 +1110,37 @@ img {
     font-size: 0.92rem;
     color: var(--text-muted);
     line-height: 1.7;
+    margin-bottom: 14px;
+}
+
+.doctor-availability {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
     margin-bottom: 20px;
+    padding: 12px 14px;
+    background: rgba(15, 181, 162, 0.06);
+    border: 1px solid rgba(15, 181, 162, 0.18);
+    border-radius: var(--radius-md);
+    font-size: 0.82rem;
+    color: var(--gray-800);
+}
+
+.avail-badge {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 500;
+}
+
+.avail-badge i, .avail-badge svg {
+    color: var(--primary-600);
+    flex-shrink: 0;
+}
+
+.avail-badge small {
+    color: var(--gray-500);
+    font-size: 0.76rem;
 }
 
 /* ==================== GALLERY ==================== */
